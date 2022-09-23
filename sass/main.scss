@@ -3,8 +3,15 @@
   | Utils styles
   |============================
 */
-@import './utils/variables.scss';
-@import './utils/visually-hidden.scss';
+@import './utils/variables';
+@import './utils/visually-hidden';
+
+/**
+  |============================
+  | Base
+  |============================
+*/
+@import './base/base';
 
 /**
   |============================
@@ -12,7 +19,6 @@
   |============================
 */
 @import './сomponents/container';
-@import './сomponents/base';
 @import './сomponents/reset';
 @import './сomponents/header';
 @import './сomponents/main-nav';
